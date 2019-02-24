@@ -1,0 +1,9 @@
+<import src="../stars/stars-template.wxml" />
+<template name="movieTemplate">
+<view class="movie-container" catchtap="onMovieTap" data-movieId="{{movieId}}">
+<image class="movie-img" src ="{{coverageUrl}}"></image>
+<text class="movie-title">{{title}}</text>
+<template is="starsTemplate" data="{{stars:stars,average:average}}"/>
+<!-- 由于前面只有一个data=""所以在这里需要二次封装对象->{{stars:stars,score:average}}这里对stars,average进行了二次封装，封装成了对象stars,score对象 -->
+</view>
+</template>

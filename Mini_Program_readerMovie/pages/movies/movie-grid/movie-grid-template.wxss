@@ -1,0 +1,12 @@
+@import "../movie/movie-template.wxss";
+
+/* 通常情况是flex更好,这里之所以用float是因为scroll-view相对flex是无效的 */
+.single-view-container {
+  float: left;
+  bottom: 40rpx;
+}
+
+.gridContainer {
+  height:1300rpx;
+  margin: 40rpx 0 40rpx 6rpx;
+}

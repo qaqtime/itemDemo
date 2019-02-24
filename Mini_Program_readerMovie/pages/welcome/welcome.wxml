@@ -1,0 +1,7 @@
+<view class="container">
+<image  class="user_avatar" src="/images/body.jpg"></image>
+<text><text style="color:red">MT</text>,hello </text>
+<view class="moto_container" bindtap="onTap">
+<text class="moto">茂腾</text>
+</view>
+</view>
